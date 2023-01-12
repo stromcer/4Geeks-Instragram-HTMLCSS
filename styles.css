@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body{
+    background-color: black;
+}
+
+.post-header, .post-content{
+    margin: 0px 0.7vw;
+}
+
+.post-header-text{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5vw;
+    font-size: 0.9em;
+}
+
+.post-header i{
+    margin: 0.5vw 0vw;
+    font-size:1.6em;
+}
+.post-content-socials i{
+    font-size: 1.7em;
+}
+.post-header-text p, .post-header-text h3{
+    margin:0px;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    background-color: silver;
+    margin:5vh 40vw;
+}
+
+.post-header-wrapper, .post-content-wrapper{
+    display:flex;
+    flex-direction: row;
+}
+
+.post-content-wrapper i{
+    margin-right: 5%;
+}
+
+
+
+.post-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: baseline;
+}
+
+.post-image img{
+    height: 20vw;
+    width: 100%;
+    object-fit: cover;
+}
+
+.post-content{
+    padding-top: 2%;
+    display:flex;
+    flex-direction: column;
+}
+
+.post-content-socials{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.post-content-text{
+    margin-top: 0px;
+    text-align: justify;
+}
+
+.post-content-stats{
+    margin-top:5vh;
+}
